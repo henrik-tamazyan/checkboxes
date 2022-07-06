@@ -12,8 +12,9 @@
                                         class="rounded-0 bg-dark me-3" 
                                         style="height: 35px; width: 35px;"
                                     >
-                                    <label for="">Delet all</label>
-                                    <div class="btn btn-outline" @click="deleteAll" v-show="this.isAll">
+<!--                                    <label for="">Delet all</label>-->
+                                    <div class="btn btn-outline d-flex align-items-center" @click="deleteAll" v-show="this.isAll">
+                                      <label for="">Delet all</label>
                                         <span class="material-icons text-danger ms-2">delete</span>  
                                     </div>                                  
                                 </div>
